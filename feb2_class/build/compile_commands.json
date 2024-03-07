@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/s23380406@unn.global/projects/classnay/feb2_class/build",
+  "command": "/usr/bin/g++-12    -std=c++17 -g -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380406@unn.global/projects/classnay/feb2_class/main.cpp",
+  "file": "/home/s23380406@unn.global/projects/classnay/feb2_class/main.cpp"
+},
+{
+  "directory": "/home/s23380406@unn.global/projects/classnay/feb2_class/build",
+  "command": "/usr/bin/g++-12    -std=c++17 -g -o CMakeFiles/main.dir/fraction.cpp.o -c /home/s23380406@unn.global/projects/classnay/feb2_class/fraction.cpp",
+  "file": "/home/s23380406@unn.global/projects/classnay/feb2_class/fraction.cpp"
+},
+{
+  "directory": "/home/s23380406@unn.global/projects/classnay/feb2_class/build",
+  "command": "/usr/bin/g++-12    -std=c++17 -g -o CMakeFiles/main.dir/comp.cpp.o -c /home/s23380406@unn.global/projects/classnay/feb2_class/comp.cpp",
+  "file": "/home/s23380406@unn.global/projects/classnay/feb2_class/comp.cpp"
+}
+]
