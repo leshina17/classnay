@@ -1,17 +1,20 @@
 [
 {
-  "directory": "/home/s23380406@unn.global/projects/classnay/feb2_class/build",
-  "command": "/usr/bin/g++-12    -std=c++17 -g -o CMakeFiles/main.dir/main.cpp.o -c /home/s23380406@unn.global/projects/classnay/feb2_class/main.cpp",
-  "file": "/home/s23380406@unn.global/projects/classnay/feb2_class/main.cpp"
+  "directory": "D:/iip/class/classnay/feb2_class/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe  -std=c++17 -g -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\iip\\class\\classnay\\feb2_class\\main.cpp",
+  "file": "D:\\iip\\class\\classnay\\feb2_class\\main.cpp",
+  "output": "CMakeFiles\\main.dir\\main.cpp.obj"
 },
 {
-  "directory": "/home/s23380406@unn.global/projects/classnay/feb2_class/build",
-  "command": "/usr/bin/g++-12    -std=c++17 -g -o CMakeFiles/main.dir/fraction.cpp.o -c /home/s23380406@unn.global/projects/classnay/feb2_class/fraction.cpp",
-  "file": "/home/s23380406@unn.global/projects/classnay/feb2_class/fraction.cpp"
+  "directory": "D:/iip/class/classnay/feb2_class/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe  -std=c++17 -g -o CMakeFiles\\main.dir\\fraction.cpp.obj -c D:\\iip\\class\\classnay\\feb2_class\\fraction.cpp",
+  "file": "D:\\iip\\class\\classnay\\feb2_class\\fraction.cpp",
+  "output": "CMakeFiles\\main.dir\\fraction.cpp.obj"
 },
 {
-  "directory": "/home/s23380406@unn.global/projects/classnay/feb2_class/build",
-  "command": "/usr/bin/g++-12    -std=c++17 -g -o CMakeFiles/main.dir/comp.cpp.o -c /home/s23380406@unn.global/projects/classnay/feb2_class/comp.cpp",
-  "file": "/home/s23380406@unn.global/projects/classnay/feb2_class/comp.cpp"
+  "directory": "D:/iip/class/classnay/feb2_class/build",
+  "command": "C:\\msys64\\mingw32\\bin\\g++.exe  -std=c++17 -g -o CMakeFiles\\main.dir\\comp.cpp.obj -c D:\\iip\\class\\classnay\\feb2_class\\comp.cpp",
+  "file": "D:\\iip\\class\\classnay\\feb2_class\\comp.cpp",
+  "output": "CMakeFiles\\main.dir\\comp.cpp.obj"
 }
 ]

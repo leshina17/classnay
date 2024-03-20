@@ -8,8 +8,9 @@ fraction operator+(double left, const fraction& rit){
 }
 
 int main(){
-    fraction fract1=fraction(1,2); //тип и название переменной
-    //fract1.print(); //вызываем метод
+    fraction fract1=fraction(15,30); //тип и название переменной
+    fract1.reduce();
+    fract1.print(); //вызываем метод
     ////fract1.setnum(1);
     ////fract1.setdenom(5);
     ////fract1.printdouble();

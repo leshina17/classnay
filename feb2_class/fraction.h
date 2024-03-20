@@ -14,8 +14,9 @@ public:
 
     fraction(const fraction& fraction);//конструктор копирования
 
-    fraction (double realfract);
+    fraction (double real_fract);
     void reduce();
+    void print();
 
     operator double() const {
         return static_cast<double>(_num)/_denom;
@@ -65,8 +66,7 @@ public:
     inline int32_t getnumdenom(){
         return _denom;
     }
-    //bool Isvalid=true;
-    void print(); //метод
+
     inline void printdouble(){
         std::cout << static_cast<double>(_num)/_denom << std::endl;
     }
@@ -95,7 +95,4 @@ public:
     }
 
 
-    // ~fraction(){
-    //     std::cout << "destructor" << this << std::endl;
-    // }
 };
