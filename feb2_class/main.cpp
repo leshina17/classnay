@@ -2,61 +2,78 @@
 #include "fraction.h" //название
 #include "comp.h"
 
-fraction operator+(double left, const fraction& rit){
-    fraction fract=rit+fraction(left);
-    return fract;
-}
-
 int main(){
-    fraction fract1=fraction(15,30); //тип и название переменной
-    fract1.reduce();
-    fract1.print(); //вызываем метод
-    ////fract1.setnum(1);
-    ////fract1.setdenom(5);
-    ////fract1.printdouble();
-    //fraction fract2();
-    //fraction fract3 = fraction();  // объекты в стеке
-    
-   
-    fraction fract=fraction(1, 2);
+    fraction fract1=fraction(15,20);
+    std::cout << fract1;
+    //fract1.reduce();
 
-    comp chis= comp(fract, fract1);
-    comp chislo= comp(fract, fract1);
+    fraction fract2=fraction(1,4);
+    std::cout << fract2;
+    //fract2.reduce();
+
+    //std::cout << ".  .  .  .  ." << std::endl;
+    
+    // // //Операция меньше
+    // if (fract1<fract2){
+    //     std::cout << "true, fract1 < fract2" << std::endl;
+    // }
+    // else 
+    //     std::cout << "false" << std::endl;
+
+    // //Операция меньше или равно
+    // if (fract1<=fract2){
+    //     std::cout << "true, fract1 <= fract2" << std::endl;
+    // }
+    // else 
+    //     std::cout << "false" << std::endl;
+
+    // //Операция больше
+    // if (fract1>fract2){
+    //     std::cout << "true, fract1 > fract2" << std::endl;
+    // }
+    // else 
+    //     std::cout << "false" << std::endl;
+
+    // //Операция больше или равно
+    // if (fract1>=fract2){
+    //     std::cout << "true, fract1 >= fract2" << std::endl;
+    // }
+    // else 
+    //     std::cout << "false" << std::endl;
+
+    // //Равенство
+    // if (fract1==fract2){
+    //     std::cout << "true, fract1  == fract2" << std::endl;
+    // }
+    // else 
+    //     std::cout << "false" << std::endl;
+
+    // //Неравенство
+    // if (fract1!=fract2){
+    //     std::cout << "true, fract1  != fract2" << std::endl;
+    // }
+    // else 
+    //     std::cout << "false" << std::endl;
+
+    // //Смена знака
+    // fraction result1=~fract1;
+    // std::cout << result1;
+
+    // fraction result2=~fract2;
+    // std::cout << result2;
+
+    // //Возведение в степень
+    // fraction result3=fract1^3;
+    // std::cout << result3;
+
+    // fraction result4=fract2^5;
+    // std::cout << result4;
+    comp chis= comp(fract1, fract2);
+    comp chislo= comp(fract1, fract2);
 
     comp res=chis+chislo;
     
-    //////////////fraction result=fract+5;
-
-    //double converted=static_cast<double>(fract); //посмотреть
-    //fract.print(); 
-    //std::cout<<fract;
-    //raction fract_copy=fraction(fract);
-    //std::cout << fract_copy;
-    //fract_copy.print();
-    //fraction* fract_pointer = new fraction(); //в динамической памяти
-    //delete fract_pointer;
-
-
-    /*fraction result=fract + fract_copy; //=fract.operator+ (fract_copy)
-    std::cout << result;
-
     
-    fraction rez=fract-fract_copy;
-    std::cout << rez;
-
-    fraction rezu=fract*fract_copy;
-    std::cout << rezu;
-
-    fraction re=fract/fract_copy;
-    std::cout << re;*/
-
-    // fraction* point= new fraction();
-    // delete point;
-
-    fraction fitcha=fraction{1,2};
-
-    fraction* array=new fraction[3];
-    delete [] array;
 
     return 0;
 }
